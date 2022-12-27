@@ -45,7 +45,7 @@ h1{
      margin: 2em 1.2em;
 }
 
-h1 span{
+h2 span{
 
     text-transform: uppercase;
     display: block;
@@ -55,11 +55,11 @@ h1 span{
 
 }
 
-h1 span::before{
+h2::before{
 
     content: ' ';
     position: absolute;
-    width: 3rem;
+    width: 8rem;
     background: #00BFFF;
     height: .4rem;
     bottom: 0;
@@ -124,6 +124,25 @@ input[type=button]:hover{
 
 }
 
+.right-col{
+
+    text-align: center;
+    margin: 3em 1em;
+}
+
+h2{
+
+    text-transform: uppercase;
+    position: relative;
+}
+
 img{
 width: 100%;
 }
+
+p{
+
+    line-height: 1.1 em;
+}
+
+
